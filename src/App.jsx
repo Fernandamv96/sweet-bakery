@@ -104,8 +104,8 @@ function FloatingDeco() {
           key={i}
           className="absolute select-none"
           style={{
-            left: \\%\,
-            top: \\%\,
+            left: `${(i * 11 + 5) % 100}%`,
+            top: `${(i * 17 + 8) % 100}%`,
             fontSize: i % 3 === 0 ? "10px" : "8px",
             color: i % 2 === 0 ? C.rose : C.roseMid,
             opacity: 0.35,
