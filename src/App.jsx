@@ -3,7 +3,6 @@ import { motion, useInView, AnimatePresence } from "framer-motion";
 import {
   Heart,
   ShoppingBag,
-  Instagram,
   MessageCircle,
   MapPin,
   Star,
