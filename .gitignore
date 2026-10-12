@@ -3,3 +3,7 @@ dist/
 *.log
 .vercel
 .env*
+.env
+.env.*
+!.env.example
+*.zip
