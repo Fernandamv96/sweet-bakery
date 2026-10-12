@@ -1,0 +1,7 @@
+{
+  "$schema": "https://openapi.vercel.sh/vercel.json",
+  "framework": "vite",
+  "installCommand": "npm install --prefix sweet-bakery",
+  "buildCommand": "npm run build --prefix sweet-bakery",
+  "outputDirectory": "sweet-bakery/dist"
+}

@@ -3,7 +3,6 @@ import { motion, useInView, AnimatePresence } from "framer-motion";
 import {
   Heart,
   ShoppingBag,
-  Instagram,
   MessageCircle,
   MapPin,
   Star,
@@ -13,8 +12,8 @@ import {
   Mail,
   ChevronDown,
   Sparkles,
+  Camera,
 } from "lucide-react";
-
 /* ─── PALETA ─────────────────────────────────────────── */
 const C = {
   rose: "#f9a8c0",
@@ -913,7 +912,7 @@ function Gallery() {
                   }}
                 >
                   <div style={{ textAlign: "center" }}>
-                    <Instagram size={28} color={C.white} style={{ margin: "0 auto 8px" }} />
+                    <Camera size={28} color={C.white} style={{ margin: "0 auto 8px" }} />
                     <p style={{ color: C.white, fontSize: 12, fontWeight: 700 }}>Ver en Instagram</p>
                   </div>
                 </motion.div>
@@ -942,7 +941,7 @@ function Gallery() {
               letterSpacing: "0.06em",
             }}
           >
-            <Instagram size={16} /> Seguirnos en Instagram
+            <Camera size={16} /> Seguirnos en Instagram
           </motion.a>
         </FadeUp>
       </div>
@@ -993,7 +992,7 @@ function Contact() {
 
           {[
             { icon: <MessageCircle size={20} color={C.roseStrong} />, label: "WhatsApp", val: "+56 9 1234 5678", href: "https://wa.me/56912345678" },
-            { icon: <Instagram size={20} color={C.roseStrong} />, label: "Instagram", val: "@andreasweetbakery", href: "https://instagram.com" },
+            { icon: <Camera size={20} color={C.roseStrong} />, label: "Instagram", val: "@andreasweetbakery", href: "https://instagram.com" },
             { icon: <MapPin size={20} color={C.roseStrong} />, label: "Dirección", val: "Av. Los Dulces 123, Santiago", href: "#" },
             { icon: <Mail size={20} color={C.roseStrong} />, label: "Email", val: "hola@andreasweetbakery.cl", href: "mailto:hola@andreasweetbakery.cl" },
           ].map(({ icon, label, val, href }) => (
@@ -1146,7 +1145,7 @@ function Footer() {
               Síguenos
             </p>
             <div className="flex gap-4 mb-6">
-              {[Instagram, MessageCircle].map((Icon, i) => (
+              {[Camera, MessageCircle].map((Icon, i) => (
                 <motion.a
                   key={i}
                   href="#"
@@ -1185,7 +1184,7 @@ function Footer() {
 }
 
 /* ─── ROOT APP ────────────────────────────────────────── */
-export default function App() {
+function SweetBakery () {
   // Load Google Fonts
   useEffect(() => {
     const link = document.createElement("link");
@@ -1208,3 +1207,4 @@ export default function App() {
     </div>
   );
 }
+export default SweetBakery;
