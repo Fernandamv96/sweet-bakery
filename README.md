@@ -1,256 +1,135 @@
 <div align="center">
 
-<br />
+# 🎀 Andrea Sweet Bakery
 
-```
- ██████╗ ██╗    ██╗███████╗███████╗████████╗    ██████╗  █████╗ ██╗  ██╗███████╗██████╗ ██╗   ██╗
-██╔════╝ ██║    ██║██╔════╝██╔════╝╚══██╔══╝    ██╔══██╗██╔══██╗██║ ██╔╝██╔════╝██╔══██╗╚██╗ ██╔╝
-╚█████╗  ██║ █╗ ██║█████╗  █████╗     ██║       ██████╔╝███████║█████╔╝ █████╗  ██████╔╝ ╚████╔╝
- ╚═══██╗ ██║███╗██║██╔══╝  ██╔══╝     ██║       ██╔══██╗██╔══██║██╔═██╗ ██╔══╝  ██╔══██╗  ╚██╔╝
-██████╔╝ ╚███╔███╔╝███████╗███████╗   ██║       ██████╔╝██║  ██║██║  ██╗███████╗██║  ██║   ██║
-╚═════╝   ╚══╝╚══╝ ╚══════╝╚══════╝   ╚═╝       ╚═════╝ ╚═╝  ╚═╝╚═╝  ╚═╝╚══════╝╚═╝  ╚═╝   ╚═╝
-```
+### *Handmade with Love — landing page para una repostería artesanal*
 
-### 🎀 *Handmade with Love — Artisan Pastry Landing Page*
+Landing page moderna, elegante y animada para **Andrea Sweet Bakery**,
+una pequeña repostería con gran corazón 🧁
 
 <br />
 
-![React](https://img.shields.io/badge/React-18-61DAFB?style=for-the-badge&logo=react&logoColor=black)
-![Vite](https://img.shields.io/badge/Vite-5-646CFF?style=for-the-badge&logo=vite&logoColor=white)
-![TailwindCSS](https://img.shields.io/badge/Tailwind-3-38BDF8?style=for-the-badge&logo=tailwindcss&logoColor=white)
-![Framer Motion](https://img.shields.io/badge/Framer_Motion-11-FF0055?style=for-the-badge&logo=framer&logoColor=white)
-![License](https://img.shields.io/badge/License-MIT-f9a8c0?style=for-the-badge)
+<a href="https://sweet-bakery-kappa.vercel.app">
+  <img src="https://img.shields.io/badge/🌸_Ver_sitio_en_vivo-sweet--bakery--kappa.vercel.app-ff5f9e?style=for-the-badge" alt="Ver sitio en vivo" />
+</a>
+
+<br /><br />
+
+![React](https://img.shields.io/badge/React-19-61DAFB?style=flat-square&logo=react&logoColor=black)
+![Vite](https://img.shields.io/badge/Vite-8-646CFF?style=flat-square&logo=vite&logoColor=white)
+![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-4-38BDF8?style=flat-square&logo=tailwindcss&logoColor=white)
+![Framer Motion](https://img.shields.io/badge/Framer_Motion-12-FF0055?style=flat-square&logo=framer&logoColor=white)
+![Vercel](https://img.shields.io/badge/Desplegado_en-Vercel-000000?style=flat-square&logo=vercel&logoColor=white)
 
 <br />
 
-> Una landing page moderna, elegante y completamente animada para **Andrea Sweet Bakery** —
-> una repostería artesanal pequeña con gran corazón 🧁
-
-<br />
-
----
-
-</div>
-
-## ✨ Vista Previa
-
-<div align="center">
-
-| 🖥️ Desktop | 📱 Mobile |
-|:---:|:---:|
-| Hero, Productos, Galería | Totalmente responsive |
+<img src="docs/preview-desktop.png" alt="Vista de escritorio de Andrea Sweet Bakery" width="74%" />
+&nbsp;
+<img src="docs/preview-mobile.png" alt="Vista móvil de Andrea Sweet Bakery" width="21%" />
 
 </div>
 
 <br />
 
----
+## ✨ Características
 
-## 🎨 Stack Tecnológico
+- 🧁 **Hero animado** con cupcake flotante y tarjetas que orbitan a su alrededor
+- 🎉 **Banner promocional** con texto en desplazamiento infinito
+- 🛍️ **Catálogo de productos** con tarjetas que se elevan al pasar el cursor
+- 👩‍🍳 **Sección "Nosotros"** con la historia de la repostería
+- 📸 **Galería** estilo Instagram con efecto al pasar el cursor
+- 📬 **Contacto** con formulario, WhatsApp, Instagram, dirección y correo
+- 📱 **Totalmente responsive**, con menú adaptado para celular
+- 🌀 **Animaciones al hacer scroll** en cada sección con Framer Motion
 
-<div align="center">
+## 🍰 Productos destacados
 
-| Tecnología | Rol |
-|:---:|:---|
-| ⚛️ **React 18** | UI components y estado |
-| ⚡ **Vite 5** | Bundler ultra-rápido |
-| 🎨 **Tailwind CSS 3** | Estilos utilitarios responsive |
-| 🎬 **Framer Motion** | Animaciones fluidas |
-| 🔷 **Lucide React** | Iconos modernos |
-| 🔠 **Google Fonts** | Playfair Display + Cormorant Garamond |
+| Producto | Precio |
+|:---|---:|
+| 🧁 Cupcake Velvet | $3.900 |
+| 🍩 Donut Glaseado | $2.500 |
+| 🍪 Macaron Duo | $4.200 |
+| 🎂 Torta Cumpleaños | $28.000 |
 
-</div>
+## 🎨 Paleta de colores
 
-<br />
+| | Color | Hex | Uso |
+|:---:|:---|:---:|:---|
+| ![](https://img.shields.io/badge/-%20%20%20-f9a8c0?style=flat-square) | Rosa pastel | `#f9a8c0` | Acentos, bordes y decoraciones |
+| ![](https://img.shields.io/badge/-%20%20%20-ff5f9e?style=flat-square) | Rosa fuerte | `#ff5f9e` | Botones y títulos destacados |
+| ![](https://img.shields.io/badge/-%20%20%20-fde8f0?style=flat-square) | Rosa suave | `#fde8f0` | Fondos de secciones |
+| ![](https://img.shields.io/badge/-%20%20%20-fff8f5?style=flat-square) | Crema | `#fff8f5` | Fondo principal |
+| ![](https://img.shields.io/badge/-%20%20%20-3d2c2c?style=flat-square) | Chocolate | `#3d2c2c` | Texto principal |
 
----
+Tipografías: **Playfair Display** (títulos) y **Cormorant Garamond** (textos), desde Google Fonts.
 
-## 🌸 Secciones de la Web
+## 🛠️ Tecnologías
 
-```
-┌─────────────────────────────────────────────────────────┐
-│  🎀  NAVBAR fija con blur al scroll + menú mobile       │
-├─────────────────────────────────────────────────────────┤
-│  🧁  HERO  ─ Cupcake flotante + cards orbitales         │
-├─────────────────────────────────────────────────────────┤
-│  🎉  PROMO BANNER ─ Ticker animado "20% OFF"            │
-├─────────────────────────────────────────────────────────┤
-│  🛍️  PRODUCTOS ─ 4 cards con hover + botón comprar      │
-├─────────────────────────────────────────────────────────┤
-│  👩‍🍳  NOSOTROS ─ Historia + íconos animados              │
-├─────────────────────────────────────────────────────────┤
-│  📸  GALERÍA ─ Grid tipo Instagram con overlay hover    │
-├─────────────────────────────────────────────────────────┤
-│  📬  CONTACTO ─ Formulario + WhatsApp + redes           │
-├─────────────────────────────────────────────────────────┤
-│  🖤  FOOTER ─ Oscuro con links y horarios               │
-└─────────────────────────────────────────────────────────┘
-```
+| Tecnología | Uso |
+|:---|:---|
+| ⚛️ **React 19** | Componentes y estado de la interfaz |
+| ⚡ **Vite 8** | Servidor de desarrollo y compilación |
+| 🎨 **Tailwind CSS 4** | Estilos utilitarios y diseño responsive |
+| 🎬 **Framer Motion 12** | Animaciones y transiciones |
+| 🔷 **Lucide React** | Íconos |
+| ▲ **Vercel** | Hosting y despliegue |
 
-<br />
+## 🚀 Ejecutar en local
 
----
-
-## 🚀 Instalación y uso local
-
-### Requisitos previos
-
-- [Node.js](https://nodejs.org) v18 o superior
-- npm v9 o superior
-
-### Pasos
+Necesitas [Node.js](https://nodejs.org) 20 o superior.
 
 ```bash
-# 1. Clonar el repositorio
-git clone https://github.com/TU_USUARIO/sweet-bakery.git
-cd sweet-bakery
-
-# 2. Instalar dependencias
+git clone https://github.com/Fernandamv96/sweet-bakery.git
+cd sweet-bakery/sweet-bakery   # la app vive en esta subcarpeta
 npm install
-
-# 3. Correr en desarrollo
-npm run dev
+npm run dev                    # http://localhost:5173
 ```
 
-Abre `http://localhost:5173` en tu navegador 🎉
+Otros comandos:
 
 ```bash
-# Construir para producción
-npm run build
-
-# Preview del build
-npm run preview
+npm run build     # compila para producción en dist/
+npm run preview   # sirve la compilación localmente
+npm run lint      # revisa el código con ESLint
 ```
 
-<br />
-
----
-
-## 📁 Estructura del proyecto
+## 📁 Estructura
 
 ```
 sweet-bakery/
-│
-├── 📂 public/
-│   └── vite.svg
-│
-├── 📂 src/
-│   ├── 🎀 SweetBakery.jsx    ← Componente principal (todo en uno)
-│   ├── main.jsx              ← Entry point
-│   └── index.css             ← Tailwind base
-│
-├── index.html
-├── package.json
-├── vite.config.js
-├── tailwind.config.js
-├── postcss.config.js
-└── README.md
+├── vercel.json              ← configuración de despliegue (compila la subcarpeta)
+├── docs/                    ← capturas usadas en este README
+└── sweet-bakery/            ← aplicación React + Vite
+    ├── index.html
+    ├── package.json
+    ├── vite.config.js
+    ├── postcss.config.js
+    ├── public/
+    └── src/
+        ├── main.jsx         ← punto de entrada
+        ├── App.jsx
+        ├── SweetBakery.jsx  ← toda la landing page (secciones y animaciones)
+        └── index.css        ← importa Tailwind
 ```
 
-<br />
+## ☁️ Despliegue
 
----
+El sitio está publicado en Vercel: **https://sweet-bakery-kappa.vercel.app**
 
-## 🎀 Paleta de colores
-
-<div align="center">
-
-| Color | Hex | Uso |
-|:---:|:---:|:---|
-| 🌸 Rosa pastel | `#f9a8c0` | Acentos, bordes, decoraciones |
-| 💗 Rosa fuerte | `#ff5f9e` | CTAs, títulos destacados |
-| 🤍 Rosa suave | `#fde8f0` | Fondos de secciones |
-| 🍦 Crema | `#fff8f5` | Fondo principal |
-| 🖤 Chocolate | `#3d2c2c` | Texto principal |
-
-</div>
-
-<br />
-
----
-
-## 🌀 Animaciones incluidas
-
-- `FadeUp` al hacer scroll en cada sección
-- Cupcake flotante con emojis orbitando en el Hero
-- Banner ticker con scroll infinito
-- Cards con elevación y sombra al hover
-- Elementos flotantes decorativos (♡ ✦ ✿)
-- Botones con scale + glow al hover
-- Galería con overlay de Instagram al hover
-- Navbar con blur dinámico según scroll
-
-<br />
-
----
-
-## 📦 Dependencias
-
-```json
-{
-  "dependencies": {
-    "react": "^18.x",
-    "react-dom": "^18.x",
-    "framer-motion": "^11.x",
-    "lucide-react": "^0.x"
-  },
-  "devDependencies": {
-    "vite": "^5.x",
-    "tailwindcss": "^3.x",
-    "autoprefixer": "^10.x",
-    "postcss": "^8.x"
-  }
-}
-```
-
-<br />
-
----
-
-## ☁️ Deploy en Vercel (gratis)
+El archivo [`vercel.json`](vercel.json) le indica a Vercel que instale y compile la app desde
+la carpeta `sweet-bakery/` y publique `sweet-bakery/dist`. Para desplegar desde tu equipo:
 
 ```bash
-# Instalar CLI de Vercel
 npm install -g vercel
-
-# Desplegar con un comando
-vercel
-```
-
-O conecta tu repo directamente en [vercel.com](https://vercel.com) para deploys automáticos con cada `git push` 🚀
-
-<br />
-
----
-
-## 🤝 Contribuciones
-
-¿Tienes ideas para mejorar la página? ¡Son bienvenidas!
-
-```bash
-# 1. Fork del repo
-# 2. Crear rama
-git checkout -b feature/mi-mejora
-
-# 3. Commit
-git commit -m "feat: descripción del cambio"
-
-# 4. Push y Pull Request
-git push origin feature/mi-mejora
+vercel --prod
 ```
 
 <br />
-
----
 
 <div align="center">
 
-Hecho con **🎀 amor** y mucho **☕ café** en Santiago, Chile
+Hecho con 🎀 y mucho ☕ en Santiago, Chile
 
-*© 2025 Andrea Sweet Bakery — Todos los derechos reservados*
-
----
-
-⭐ **Si te gustó el proyecto, regálale una estrella en GitHub** ⭐
+*© 2026 Andrea Sweet Bakery*
 
 </div>
