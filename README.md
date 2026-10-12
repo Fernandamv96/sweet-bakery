@@ -2,6 +2,9 @@
 
 # 🎀 Andrea Sweet Bakery
 
+[![CI](https://github.com/Fernandamv96/sweet-bakery/actions/workflows/ci.yml/badge.svg)](https://github.com/Fernandamv96/sweet-bakery/actions/workflows/ci.yml)
+
+
 ### *Handmade with Love — landing page para una repostería artesanal*
 
 Landing page moderna, elegante y animada para **Andrea Sweet Bakery**,
@@ -30,6 +33,10 @@ una pequeña repostería con gran corazón 🧁
 </div>
 
 <br />
+
+## 🎯 ¿Qué problema resuelve?
+
+Una repostería artesanal pequeña necesitaba presencia web: una landing que muestre sus productos y su estilo, y que facilite el contacto, sin mantener un backend.
 
 ## ✨ Características
 
@@ -133,3 +140,18 @@ Hecho con 🎀 y mucho ☕ en Santiago, Chile
 *© 2026 Andrea Sweet Bakery*
 
 </div>
+
+## 🔒 Calidad y seguridad
+
+- CI en cada push y PR (ESLint + build de Vite en `sweet-bakery/`), además de CodeQL, Dependabot y gitleaks en pre-commit.
+- Para reportar vulnerabilidades, mira [SECURITY.md](SECURITY.md).
+
+## 💡 Qué aprendí
+
+- A diseñar una paleta y una tipografía coherentes con la marca de un negocio real.
+- A animar una landing en React sin perder rendimiento en móvil.
+- A configurar Vercel para compilar una app que vive en una subcarpeta (`--prefix`).
+
+## 📄 Licencia
+
+[MIT](LICENSE) © 2026 Fernanda (Fernandamv96)
