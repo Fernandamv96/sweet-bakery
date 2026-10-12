@@ -8,7 +8,6 @@ import {
   Star,
   Menu,
   X,
-  Phone,
   Mail,
   ChevronDown,
   Sparkles,
@@ -129,7 +128,7 @@ function FloatingDeco() {
 }
 
 /* ─── NAVBAR ──────────────────────────────────────────── */
-function Navbar({ activeSection }) {
+function Navbar() {
   const [open, setOpen] = useState(false);
   const [scrolled, setScrolled] = useState(false);
 
@@ -608,7 +607,7 @@ function PromoBanner() {
 
 /* ─── PRODUCTS ────────────────────────────────────────── */
 function Products() {
-  const [cart, setCart] = useState([]);
+  const [, setCart] = useState([]);
   const [addedId, setAddedId] = useState(null);
 
   const handleAdd = (id) => {
@@ -627,7 +626,7 @@ function Products() {
           <h2 style={{ fontFamily: "'Playfair Display', serif", fontSize: "clamp(32px, 4vw, 52px)", color: C.dark, marginTop: 8 }}>
             Productos <span style={{ color: C.roseStrong }}>Destacados</span>
           </h2>
-          <p style={{ color: C.grayText, fontSize: 15, maxWidth: 500, margin: "12px auto 0", fontFamily: "'Cormorant Garamond', serif", fontSize: 18, fontStyle: "italic" }}>
+          <p style={{ color: C.grayText, maxWidth: 500, margin: "12px auto 0", fontFamily: "'Cormorant Garamond', serif", fontSize: 18, fontStyle: "italic" }}>
             Cada pieza es única, elaborada a mano con ingredientes seleccionados
           </p>
         </FadeUp>
